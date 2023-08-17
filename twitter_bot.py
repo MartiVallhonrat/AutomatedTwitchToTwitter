@@ -34,7 +34,7 @@ def clean_title(input_string):
     else:
         return input_string
 
-def updateclips():
+async def updateclips():
 
     # Set the file path for the videos
     path = "videos"
